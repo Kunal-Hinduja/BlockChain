@@ -29,7 +29,7 @@ contract SimpleStorage {
     }
  
  
- // hu aaya chhu
+ 
     function addperson(string memory _name , uint256 _favoriteNumber) public {
         people.push(People(_favoriteNumber, _name));
         nameTofavoriteNumber[_name] = _favoriteNumber;
